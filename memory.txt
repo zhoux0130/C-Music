@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int int_add = 0;
+
+void show() {
+    int show_int_add = 12;
+    printf("show_int_add: %p\n", &show_int_add);
+}
+
+int main(int argc, char *argv[]) {
+    int main_int_add = 1;
+    int main_double_add = 1;
+
+    printf("int_add: %p\n", &int_add);
+    printf("main_int_add: %p\n", &main_int_add);
+    printf("main_double_add: %p\n", &main_double_add);
+
+    printf("function_show: %p\n", &show);
+    printf("function_main: %p\n", &main);
+
+    show();
+
+}
