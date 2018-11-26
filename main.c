@@ -57,7 +57,7 @@ void show(){
 }
 
 int main() {
-    printf("欢迎来带命令行Music！\n"
+    printf("欢迎来到命令行Music！\n"
            "请输入你的操作(show|play|end)：");
     char opt[10];
     scanf("%s", opt);
